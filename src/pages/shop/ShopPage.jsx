@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import ShopData from "./ShopData";
 import CollectionsPreview from "../../components/collection-preview/CollectionsPreview";
 
-class ShopPage extends React.Component {
+class ShopPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
